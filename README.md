@@ -49,34 +49,19 @@ docker pull --platform linux/amd64 cleanstart/jre:latest
 docker pull --platform linux/arm64 cleanstart/jre:latest
 ```
 
-**Resources & Documentation**
+**
+### Resources & Documentation  
+Essential links and resources for further information:
 
-**Essential Links**
-* **CleanStart Website**: https://www.cleanstart.com
-* **jre Official**: https://www.oracle.com/jre/
+- CleanStart Website: https://www.cleanstart.com
+- View Provenance, Specifications, SBOM, Signature at: https://images.cleanstart.com/images/jre
+- CleanStart All Images: https://images.cleanstart.com
+- CleanStart Community Images: https://hub.docker.com/u/cleanstart
+- Other location for Community image: https://hub.docker.com/r/cleanstart/jre
 
-**Reference:**
-
-CleanStart Community Images: https://hub.docker.com/u/cleanstart 
-
-Get more from CleanStart images from https://github.com/clnstrt/cleanstart-containers/tree/main/containers⁠, 
-
-  -  how-to-Run sample projects using dockerfile 
-  -  how-to-Deploy via Kubernete YAML 
-  -  how-to-Migrate from public images to CleanStart images
-
-**Reference:**
-
-CleanStart All Images: https://images.cleanstart.com
- 
-CleanStart Community Images: https://hub.docker.com/u/cleanstart
- 
-View Provenance, Specifications, SBOM, Signature at https://images.cleanstart.com/images/jre
- 
-Other location for Community image: https://hub.docker.com/r/cleanstart/jre
 ---
 
-# Vulnerability Disclaimer
+### Vulnerability Disclaimer
 
 CleanStart offers Docker images that include third-party open-source libraries and packages maintained by independent contributors. While CleanStart maintains these images and applies industry-standard security practices, it cannot guarantee the security or integrity of upstream components beyond its control.
 
