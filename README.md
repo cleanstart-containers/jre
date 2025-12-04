@@ -16,24 +16,24 @@ Official JRE container image optimized for enterprise environments. Includes the
 
 Download the runtime container images
 ```bash
-docker pull cleanstart/jre:latest
+docker pull ghcr.io/cleanstart-containers/jre:latest
 ```
 ```bash
-docker pull cleanstart/jre:latest-dev
+docker pull ghcr.io/cleanstart-containers/jre:latest-dev
 ```
 
 ## Interactive Development
 
 Start interactive session for development
 ```bash
-docker run --rm -it --entrypoint /bin/sh cleanstart/jre:latest-dev
+docker run --rm -it --entrypoint /bin/sh ghcr.io/cleanstart-containers/jre:latest-dev
 ```
 
 ## Container Start
 
 Start the container
 ```bash
-docker run --rm -it --name jre-dev cleanstart/jre:latest
+docker run --rm -it --name jre-dev ghcr.io/cleanstart-containers/jre:latest
 ```
 
 ## Best Practices
@@ -46,10 +46,10 @@ docker run --rm -it --name jre-dev cleanstart/jre:latest
 
 ### Multi-Platform Images
 ```bash
-docker pull --platform linux/amd64 cleanstart/jre:latest
+docker pull --platform linux/amd64 ghcr.io/cleanstart-containers/jre:latest
 ```
 ```bash
-docker pull --platform linux/arm64 cleanstart/jre:latest
+docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/jre:latest
 ```
 
 ---
